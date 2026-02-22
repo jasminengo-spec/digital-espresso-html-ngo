@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="top">Kape Pa More</h1>
+
+    <!-- Global Navigation -->
+    <nav>
+        <ul>
+            <a href="index.html" >The Homepage</a>
+            <a href="about.html">The Origins</a>
+            <a href="products.html">The Menu</a>
+            <a href="branches.html"aria-current="page"><strong>Locations</strong></a>
+        </ul> 
+    </nav>
+    
+    <main>
+        <!-- Locations -->
+        <h3>Our Locations</h3>
+        <img src="images/regis-center.jpg" alt="Photo of Regis Center" width="100">
+        <address>
+            <strong>Kape Pa More - Regis Center</strong><br>
+            327 Katipunan Ave, Barangay Loyola Heights<br>
+            Quezon City, Metro Manila<br>
+        </address>
+        <br>
+        <img src="images/uptc.jpg" alt="Photo of UP Town Center" width="100">
+        <address>
+            <strong>Kape Pa More - UP Town Center</strong><br>
+            216 Katipunan Ave, Barangay U.P. Campus<br>
+            Quezon City, Metro Manila<br>
+        </address>
+
+        <!-- Newsletter Sign Up Form -->
+        <section>
+            <h3>Subscribe to Our Newsletter</h3>
+
+            <form action="#" method="post">
+
+            <!-- Name -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+            <!-- Email -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+            <!-- Favorite Drink -->
+                <label for="favorite-drink">Favorite Drink:</label>
+                <select id="favorite-drink" name="favorite-drink">
+                    <option value="espresso">Espresso</option>
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="macchiato">Macchiato</option>
+                </select>
+                <br><br>
+
+            <!-- Subscribe Checkbox -->
+                <label for="subscribe">
+                    Subscribe to Weekly Updates
+                </label>
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <br><br>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Standard Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Kape Pa More. All rights reserved.<br>
+            <a href="#top">Back to Top</a>
+        </p>
+    </footer>
+</body>
+</html>
